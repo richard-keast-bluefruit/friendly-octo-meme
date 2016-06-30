@@ -1,0 +1,14 @@
+﻿  MockPins.cpp
+LEDtests.obj : error LNK2005: _MockPins_GetPinDirection already defined in LED.obj
+LEDtests.obj : error LNK2005: _MockPins_IsPinDirectionSet already defined in LED.obj
+LEDtests.obj : error LNK2005: _MockPins_SetPinDirection already defined in LED.obj
+LEDtests.obj : error LNK2005: _pinMode already defined in LED.obj
+LEDtests.obj : error LNK2005: _PinDirections already defined in LED.obj
+LEDtests.obj : error LNK2005: _IsPinDirectionSet already defined in LED.obj
+MockPins.obj : error LNK2005: _MockPins_GetPinDirection already defined in LED.obj
+MockPins.obj : error LNK2005: _MockPins_IsPinDirectionSet already defined in LED.obj
+MockPins.obj : error LNK2005: _MockPins_SetPinDirection already defined in LED.obj
+MockPins.obj : error LNK2005: _PinDirections already defined in LED.obj
+MockPins.obj : error LNK2005: _IsPinDirectionSet already defined in LED.obj
+     Creating library C:\Users\richa_2cjlc0r\Documents\Arduino\VisualBlink\Debug\ThingsTests.lib and object C:\Users\richa_2cjlc0r\Documents\Arduino\VisualBlink\Debug\ThingsTests.exp
+C:\Users\richa_2cjlc0r\Documents\Arduino\VisualBlink\Debug\ThingsTests.dll : fatal error LNK1169: one or more multiply defined symbols found
