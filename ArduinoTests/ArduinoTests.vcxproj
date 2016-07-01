@@ -23,6 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>ThingiesTests</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>ArduinoTests</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -88,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\richa_2cjlc0r\Documents\friendly-octo-meme\Blinky;C:\Users\richa_2cjlc0r\Documents\friendly-octo-meme\googletest-release-1.7.0\include;C:\Users\richa_2cjlc0r\Documents\friendly-octo-meme\ArduinoLibraryMock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Blinky;..\googletest-release-1.7.0\include;..\ArduinoLibraryMock;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -157,14 +158,14 @@
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ArduinoCode\ArduinoCode.vcxproj">
+      <Project>{8d6bd220-6a35-4a86-bc5c-a66d89e2b8b9}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\googletest-release-1.7.0\msvc\gtest.vcxproj">
       <Project>{c8f6c172-56f2-4e76-b5fa-c3b423b31be7}</Project>
     </ProjectReference>
     <ProjectReference Include="..\googletest-release-1.7.0\msvc\gtest_main.vcxproj">
       <Project>{3af54c8a-10bf-4332-9147-f68ed9862032}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\Thingies\Thingies.vcxproj">
-      <Project>{8d6bd220-6a35-4a86-bc5c-a66d89e2b8b9}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

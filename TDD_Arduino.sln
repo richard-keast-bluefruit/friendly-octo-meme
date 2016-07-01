@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Thingies", "Thingies\Thingies.vcxproj", "{8D6BD220-6A35-4A86-BC5C-A66D89E2B8B9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoCode", "ArduinoCode\ArduinoCode.vcxproj", "{8D6BD220-6A35-4A86-BC5C-A66D89E2B8B9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ThingiesTests", "ThingiesTests\ThingiesTests.vcxproj", "{98293629-1F96-4724-B83C-30D7FB47090A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ArduinoTests", "ArduinoTests\ArduinoTests.vcxproj", "{98293629-1F96-4724-B83C-30D7FB47090A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gtest", "googletest-release-1.7.0\msvc\gtest.vcxproj", "{C8F6C172-56F2-4E76-B5FA-C3B423B31BE7}"
 EndProject
