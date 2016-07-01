@@ -19,4 +19,6 @@ extern "C"
 	bool MockPins_IsPinHigh(u8 pin);
 
 	void MockPins_SetPinVoltage(u8 pin, u8 voltage);
+
+	bool MockPins_IsPinLow(u8 pin);
 }

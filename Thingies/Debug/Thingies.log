@@ -1,3 +1,2 @@
 ﻿  MockPins.cpp
-c:\users\richa_2cjlc0r\documents\friendly-octo-meme\arduinolibrarymock\mockpins.cpp(37): warning C4800: 'u8': forcing value to bool 'true' or 'false' (performance warning)
   Thingies.vcxproj -> C:\Users\richa_2cjlc0r\Documents\friendly-octo-meme\Debug\Thingies.lib
