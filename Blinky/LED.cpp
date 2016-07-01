@@ -2,5 +2,11 @@
 
 LED::LED(u8 pin)
 {
-	pinMode(pin, OUTPUT);
+	m_ledPin = pin;
+	pinMode(m_ledPin, OUTPUT);
+}
+
+void LED::TurnOn()
+{
+	digitalWrite(m_ledPin, HIGH);
 }
